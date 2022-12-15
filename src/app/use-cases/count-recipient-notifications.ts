@@ -10,7 +10,7 @@ interface Response {
 }
 
 @Injectable()
-export class CountRecipientNotification {
+export class CountRecipientNotifications {
   constructor(private notificationRepository: NotificationRepository) {}
 
   async execute(request: Request): Promise<Response> {
